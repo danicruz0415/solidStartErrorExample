@@ -12,7 +12,9 @@ export default createHandler(() => (
           {assets}
         </head>
         <body>
-          <div id="app">{children}</div>
+          <div id="app" class="scrollbar-thumb-rounded-full scrollbar-thumb-gray-400 dark:scrollbar-thumb-gray-700">
+            {children}
+          </div>
           {scripts}
         </body>
       </html>

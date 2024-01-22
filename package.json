@@ -9,6 +9,7 @@
   "dependencies": {
     "@solidjs/router": "^0.10.9",
     "@solidjs/start": "^0.4.9",
+    "@tanstack/solid-table": "^8.11.7",
     "autoprefixer": "^10.4.14",
     "flowbite": "^2.2.1",
     "postcss": "^8.4.26",
@@ -18,5 +19,8 @@
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "tailwind-scrollbar": "^3.0.5"
   }
 }
